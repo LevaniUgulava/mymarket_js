@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#searchFormContainer {
+    margin-top: 20px;
+    display: flex;
+}
+
+#search {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#searchcategory {
+    margin-top: 10px;
+}
+
+.checkbox-options {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.card {
+    width: 18rem;
+    margin: 10px;
+}
+
+/* Container for the cards */
+/* Container for the cards */
+/* Container for the cards */
+#cardContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 5 equal columns */
+    gap: 20px; /* Adjust gap between cards as needed */
+    padding: 20px;
+    justify-content: center; /* Center the entire grid if it doesn't fill the container */
+}
+
+/* Styling for the card body */
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid #ccc; /* Example styling */
+    border-radius: 5px; /* Example styling */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Example styling */
+    background-color: white; /* Example styling */
+    box-sizing: border-box;
+}
+
+
+
+.Searchbutton{
+    border: none;
+    border-radius:5px;
+    cursor: pointer;
+    background-color: rgb(5, 108, 244);
+    color: white;
+}
+.addbutton{
+    padding: 10px 30px;
+    font-size: 1em;
+    color: #fff;
+    background-color:rgb(197, 178, 144);
+    border: none;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: auto;
+}
+.addbutton:hover {
+    background-color: grey;
+}
+.loginbtn{
+    padding: 10px 30px;
+    font-size: 1em;
+    color: black;
+    background-color:white;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: auto;
+}
+.loginbtn:hover {
+    background-color: grey;
+}
+.button-container {
+    display: flex;
+    gap: 10px; 
+    margin-left: auto;
+}
+.btn{
+    padding: 10px 20px;
+    font-size: 1em;
+    color: black;
+    background-color:white;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: auto;
+}
+.btn:hover {
+    background-color: grey;
+}
+.button-container {
+    display: flex;
+    gap: 10px; 
+    margin-left: auto;
+}
+.mymarket{
+    padding: 10px 20px;
+    font-size: 1em;
+    color: black;
+    background-color:white;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 900px;
+    background-color: rgb(197, 178, 144);
+}
+.mymarket:hover{
+    background-color: grey;
+}
